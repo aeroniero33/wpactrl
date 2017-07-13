@@ -177,7 +177,7 @@ class WPACtrl(object):
         return KeyValResp(resp)
 
     def set_ssid(self, ssid):
-        return self.request('SET ssid {}'.format(ssid.strip()) == 'OK'
+        return self.request('SET ssid {}'.format(ssid.strip()) == 'OK')
 
 
 if __name__ == '__main__':
